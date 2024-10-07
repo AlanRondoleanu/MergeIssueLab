@@ -12,4 +12,4 @@ public class PlayerController : MonoBehaviour
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
         transform.Translate(movement * speed * Time.deltaTime);
     }
-}
+} 
